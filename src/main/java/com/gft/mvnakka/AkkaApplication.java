@@ -22,7 +22,7 @@ import java.util.Random;
  */
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan("de.kimrudolph.akkaflow.configuration")
+@ComponentScan("com.gft.mvnakka.configuration")
 public class AkkaApplication {
 
     public static void main(String[] args) throws Exception {
