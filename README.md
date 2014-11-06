@@ -4,12 +4,10 @@ Microservice archetype with Maven, Spring Boot, Akka and Java.
 (From: https://github.com/typesafehub/activator-akka-java-spring)
 
 Project contains:
-- Easy to test Akka system with a sample actor
-- Spray-based RESTful API
-- Actor and API sample tests
-- View include
-- Hibernate based datasource
-- Logback-SLF4J logging
+
+```
+TODO
+```
 
 # API structure
 
@@ -39,4 +37,6 @@ java -jar build/libs/maven-akka-microservice-1.0-SNAPSHOT.jar 1>/dev/null
 
 1-Include WS Akka support.
 
-2-Implementation of the Tell Actor Design Pattern.
+2-Include REST Akka support.
+
+3-Implementation of the Tell Actor Design Pattern.
