@@ -1,10 +1,10 @@
-package com.gft.mvnakka.actors;
+package com.hppoc.mvnakka.actors;
 
 import akka.actor.UntypedActor;
 import akka.event.Logging;
 import akka.event.LoggingAdapter;
-import com.gft.mvnakka.beans.Task;
-import com.gft.mvnakka.services.TaskDAO;
+import com.hppoc.mvnakka.beans.Task;
+import com.hppoc.mvnakka.services.TaskDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

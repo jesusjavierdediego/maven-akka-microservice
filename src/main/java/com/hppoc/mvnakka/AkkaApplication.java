@@ -1,4 +1,4 @@
-package com.gft.mvnakka;
+package com.hppoc.mvnakka;
 
 
 import akka.actor.ActorRef;
@@ -6,8 +6,8 @@ import akka.actor.ActorSystem;
 import akka.actor.PoisonPill;
 import akka.event.Logging;
 import akka.event.LoggingAdapter;
-import com.gft.mvnakka.beans.Task;
-import com.gft.mvnakka.extension.SpringExtension;
+import com.hppoc.mvnakka.beans.Task;
+import com.hppoc.mvnakka.extension.SpringExtension;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.ApplicationContext;
@@ -22,7 +22,7 @@ import java.util.Random;
  */
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan("com.gft.mvnakka.configuration")
+@ComponentScan("com.hppoc.mvnakka.configuration")
 public class AkkaApplication {
 
     public static void main(String[] args) throws Exception {

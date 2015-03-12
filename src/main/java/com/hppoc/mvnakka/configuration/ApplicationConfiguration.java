@@ -1,10 +1,10 @@
-package com.gft.mvnakka.configuration;
+package com.hppoc.mvnakka.configuration;
 
 import akka.actor.ActorSystem;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import com.typesafe.config.Config;
 import com.typesafe.config.ConfigFactory;
-import com.gft.mvnakka.extension.SpringExtension;
+import com.hppoc.mvnakka.extension.SpringExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -17,8 +17,8 @@ import java.util.Properties;
 
 @Configuration
 @Lazy
-@ComponentScan(basePackages = { "com.gft.mvnakka.services",
-    "com.gft.mvnakka.actors", "com.gft.mvnakka.extension" })
+@ComponentScan(basePackages = { "com.hppoc.mvnakka.services",
+    "com.hppoc.mvnakka.actors", "com.hppoc.mvnakka.extension" })
 public class ApplicationConfiguration {
 
     // The application context is needed to initialize the Akka Spring

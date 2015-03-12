@@ -1,4 +1,4 @@
-package com.gft.mvnakka.actors;
+package com.hppoc.mvnakka.actors;
 
 import akka.actor.ActorRef;
 import akka.actor.Terminated;
@@ -9,8 +9,8 @@ import akka.routing.ActorRefRoutee;
 import akka.routing.Routee;
 import akka.routing.Router;
 import akka.routing.SmallestMailboxRoutingLogic;
-import com.gft.mvnakka.beans.Task;
-import com.gft.mvnakka.extension.SpringExtension;
+import com.hppoc.mvnakka.beans.Task;
+import com.hppoc.mvnakka.extension.SpringExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -20,7 +20,7 @@ import java.util.List;
 
 /**
  * A sample supervisor which should handle exceptions and general feedback
- * for the actual {@link com.gft.mvnakka.actors.TaskActor}
+ * for the actual {@link com.hppoc.mvnakka.actors.TaskActor}
  * <p/>
  * A router is configured at startup time, managing a pool of task actors.
  */

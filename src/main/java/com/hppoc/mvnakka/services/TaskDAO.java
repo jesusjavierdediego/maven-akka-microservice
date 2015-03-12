@@ -1,7 +1,7 @@
-package com.gft.mvnakka.services;
+package com.hppoc.mvnakka.services;
 
 
-import com.gft.mvnakka.beans.Task;
+import com.hppoc.mvnakka.beans.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
@@ -15,7 +15,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- * DAO for handling {@link com.gft.mvnakka.beans.Task} creation.
+ * DAO for handling {@link com.hppoc.mvnakka.beans.Task} creation.
  */
 @Repository
 public class TaskDAO {

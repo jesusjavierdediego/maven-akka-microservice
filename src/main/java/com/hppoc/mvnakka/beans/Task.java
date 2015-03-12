@@ -1,4 +1,4 @@
-package com.gft.mvnakka.beans;
+package com.hppoc.mvnakka.beans;
 
 /**
  * Payload container

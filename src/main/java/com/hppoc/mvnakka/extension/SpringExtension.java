@@ -1,4 +1,4 @@
-package com.gft.mvnakka.extension;
+package com.hppoc.mvnakka.extension;
 
 import akka.actor.Extension;
 import akka.actor.Props;

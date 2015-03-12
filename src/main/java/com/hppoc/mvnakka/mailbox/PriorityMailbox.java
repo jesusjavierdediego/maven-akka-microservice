@@ -1,10 +1,10 @@
-package com.gft.mvnakka.mailbox;
+package com.hppoc.mvnakka.mailbox;
 
 import akka.actor.ActorSystem;
 import akka.dispatch.PriorityGenerator;
 import akka.dispatch.UnboundedPriorityMailbox;
 import com.typesafe.config.Config;
-import com.gft.mvnakka.beans.Task;
+import com.hppoc.mvnakka.beans.Task;
 
 /**
  * Simple priority queue mapping the task priority to the mailbox priority.
